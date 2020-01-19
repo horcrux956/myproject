@@ -1,5 +1,7 @@
-nums = []
-for i in open('Perepis.txt'):
-    nums.append(i[:-1])
+f=open('Perepis.txt')
 
-print(nums)
+for line in f:
+    line
+    print(line.split(' '))
+    line.rfind(str,[end])
+f.close()
